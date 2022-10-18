@@ -1,0 +1,56 @@
+* {
+    box-sizing : border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 2;
+    margin: 0;
+    
+    color: #4a4e69; 
+    }
+
+img {max-width:100%}
+
+main{
+    background-color:#1b263b;
+    height: 79%;
+}
+
+header img{
+    height: 20px;
+}
+
+li {
+    padding-left: 2%;
+}
+
+.text-end {
+    
+    width: 50%;
+}
+
+footer {
+    height: 6rem;
+    text-align: center;
+}
+
+
+main .card{
+    background-color: #4a4e69;
+    color: white;
+}
+
+.img1{
+    height: 20rem;
+    
+}
+
+.card.mx-auto.w-50.text-bg-dark{
+    margin-top: 7rem;
+}
+
