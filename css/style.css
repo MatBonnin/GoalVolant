@@ -2,27 +2,25 @@
     box-sizing : border-box;
 }
 
-html{
-    height: 100%;
-}
 
 body {
     font-family: 'Open Sans', sans-serif; 
     line-height: 2;
-    margin: 0;
-    
-    color: #4a4e69; 
+    background-color:black;
     }
 
 img {max-width:100%}
 
-main{
-    background-color:#1b263b;
-    height: 79%;
-}
+
 
 header img{
     height: 20px;
+}
+
+
+header{
+    background-color: black;
+    color: white;
 }
 
 li {
@@ -37,20 +35,90 @@ li {
 footer {
     height: 6rem;
     text-align: center;
+    background-color: black;
+ 
 }
 
 
 main .card{
-    background-color: #4a4e69;
+    background-color: black;
     color: white;
+   
 }
 
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+ a:hover {
+    text-decoration: none;
+    color: white;
+  }
 .img1{
     height: 20rem;
     
+}
+
+.rowMargin{
+    margin-top:120px;
+}
+
+.sticky-sidebar{
+
+    position: absolute;
+
+}
+
+.sidebar-item {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	width: 5%;
+	height: 100%;
+	
+	/* Position the items */
+	
+}
+
+.img1,.blogPost{
+    height: 370px;
+}
+
+.fnac{
+    width: 52%;
+}
+
+/* .whitePart{
+    background-color: white;
+    width: 20000px;
+} */
+
+.sidebar-item a img{
+
+    width: 40px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+
+.make-me-sticky {
+  position: -webkit-sticky;
+	position: sticky;
+	top: 30%;
+    
+  padding: 0 15px;
 }
 
 .card.mx-auto.w-50.text-bg-dark{
     margin-top: 7rem;
 }
 
+h4{
+    color: orange;
+}
+
+.headerTitre{
+    font-size: 30px;
+    font-style: bold;
+}
